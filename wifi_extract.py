@@ -18,7 +18,7 @@ if len(profile) != 0:
             if password == None:
                 wifi_dict["password1"]=none
             else:
-                wifi_dict["password1"]=password[0]
+                wifi_dict["password1"]=password[1]
                 print(wifi_dict)
 
             print("username: ",wifi_dict["ssid"])
